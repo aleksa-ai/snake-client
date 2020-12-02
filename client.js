@@ -24,6 +24,6 @@ const connect = function() {
   });
 
   return conn;
-}
+};
 
 exports.connect = connect
