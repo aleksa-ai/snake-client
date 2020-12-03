@@ -24,6 +24,12 @@ const handleUserInput = function(char){
   if(char === 'd'){
     connection.write("Move: right");
   }
+  if(char === 'g'){
+    connection.write("Say: Go!");
+  }
+  if(char === 'h'){
+    connection.write("Say: Hello!");
+  }
   if(char === '\u0003'){
     process.exit();
   }
